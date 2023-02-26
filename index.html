@@ -5,14 +5,75 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign up form</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="wrapper">
+    <div class="wr">
         <div class="bgimage">
-            <img src="bgimage.jpg">
+            
         </div>
         <div class="formpage">
-            
+            <div class="paras">
+                <div class="para1">
+                    This is not a real online service.<br> You know you need something like this to motivate yourself.
+                    <br>Sign up now.
+                </div>
+                <div class="para2">You know you want to</div>
+            </div>
+
+            <div class="formdiv">
+                <form action="#" method="post">
+                    <div class="fwrap">
+                        <div class="ftext">
+                            <h3>Let's do This</h3>
+                        </div>
+                        <div class="names">
+                            <div class="namelabel">
+                                <label for="fname">First name</label>
+                                <input type="text" name="fname" id ="fname">
+                            </div>
+                            <div class="namelabel">
+                                <label for="lname">Last name</label>
+                                <input type="text" name="lname" id ="lname">
+                            </div>
+                        </div>
+                        <div class="contacts">
+                            <div class="namelabel">
+                                <label for="email">Email</label>
+                                <input type="email" name="email" id ="email">
+                            </div>
+                            <div class="namelabel">
+                                <label for="pno">Phone number</label>
+                                <input type="number" name="pno" id ="pno">
+                            </div>
+                        </div>
+                        
+                        <div class="pwds">
+                            <div class="namelabel">
+                                <label for="pwd1">Password</label>
+                                <input type="password" name="pwd1" id ="pwd1">
+                            </div>
+                            <div class="namelabel">
+                                <label for="pwd2">Password</label>
+                                <input type="password" name="pwd2" id ="pwd2">
+                            </div>
+                        </div>
+                    </div>
+
+                    
+
+
+                </form>
+            </div>
+
+            <div class="btnandalre">
+                <div class="btn">
+                    <button type="button">Create</button>
+                </div>
+                <div class="login">
+                    <p>Already have an account, <a href="#">Log in</a></p>
+                </div>
+            </div>
         </div>
     </div>
 </body>
