@@ -21,6 +21,7 @@ body,html{
 .wr{
     display: flex;
     flex-direction: row;
+    /*gap: 30px;*/
 
 }
 
@@ -39,21 +40,67 @@ body,html{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    background-color: white;
+    padding-left: 2rem;
 }
 
 .fwrap{
     display: flex;
     flex-direction: column;
+    gap: 2rem;
+    font-family: norsebold;
 }
 
 .names,.contacts,.pwds{
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 5rem;
 }
 
 
 .namelabel{
     display: flex;
     flex-direction: column;
+}
+
+
+.formdiv{
+background-color: white;
+}
+
+
+/*para section*/
+
+.paras{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 2rem;
+    font-family: norsebold;
+    font-size: 2rem;
+    position: relative;
+    top: 2.5rem;
+}
+
+.para1{
+    position: relative;
+    bottom: 1rem;
+}
+
+
+
+
+
+
+/*btn section*/
+
+.btnw{
+    font-family: norsebold;
+}
+
+
+button{
+    font-family: norsebold;
+    font-size: 2rem;
+    width: 6rem;
 }
