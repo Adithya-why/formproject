@@ -2,3 +2,58 @@
     font-family: norsebold;
     src: url(Norse-Bold.otf);
 }
+
+
+body,html{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+
+/*Image section*/
+
+
+.wr{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.bgimage{
+    background-image: url(bgimage.jpg);
+    background-size: cover;
+    width: 35vw;
+    height: 100vh;
+}
+
+
+
+/* Form section*/
+
+.formpage{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.fwrap{
+    display: flex;
+    flex-direction: column;
+}
+
+.names,.contacts,.pwds{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+
+.namelabel{
+    display: flex;
+    flex-direction: column;
+}
