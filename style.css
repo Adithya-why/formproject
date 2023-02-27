@@ -69,6 +69,16 @@ background-color: white;
 }
 
 
+input{
+    border:2px solid #E5E7EB;
+}
+
+input:focus{
+    outline: none !important;
+    border:2px solid lightgreen;
+}
+
+
 /*para section*/
 
 .paras{
@@ -88,6 +98,11 @@ background-color: white;
 }
 
 
+.error{
+    border:2px solid red;
+
+}
+
 
 
 
@@ -103,4 +118,18 @@ button{
     font-family: norsebold;
     font-size: 2rem;
     width: 6rem;
+    border-radius: 25%;
+    background-color: lightgreen;
+}
+
+
+
+a{
+    font-style: none;
+    color: lightgreen;
+}
+
+
+.t1,.t2{
+    color: red;
 }
