@@ -30,6 +30,34 @@ body,html{
     background-size: cover;
     width: 35vw;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.logo{
+    width: 100%;
+    height: 12rem;
+    background-color: black;
+    opacity: 0.5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo2{
+    background-image: url(odin-lined.png);
+    background-size: cover;
+    width: 25%;
+    height: 10rem;
+}
+
+
+.ltext{
+    color: white;
+    font-family: norsebold;
+    font-size: 3rem;
 }
 
 
